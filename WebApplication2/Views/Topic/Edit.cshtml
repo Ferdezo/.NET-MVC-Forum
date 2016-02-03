@@ -1,0 +1,9 @@
+﻿@model ForumData5.Topic
+
+<h2>Edycja tematu</h2>
+
+@using (Html.BeginForm("EditSubmit", "Topic", FormMethod.Post))
+{
+    @Html.TextBox("title")
+    <input type="submit" class="btn btn-default btn-sm" value="Zapisz" />
+}

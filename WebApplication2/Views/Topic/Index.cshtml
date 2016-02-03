@@ -1,0 +1,56 @@
+﻿@using PagedList.Mvc;
+@using WebApplication2.App_Start;
+@model PagedList.IPagedList<ForumData5.Topic>
+
+@{
+    ViewBag.Title = "Topics";
+}
+
+<h2>Tematy</h2>
+
+<table class="table">
+    <tr>
+        <th>Tytuł</th>
+        <th>Autor</th>
+        <th>Utworzono</th>
+        <th>Modyfikowano</th>
+        <th></th>
+        <th></th>
+    </tr>
+
+    @foreach (var topic in Model)
+    {
+        <tr>
+        <td>@topic.title</td>
+        <td>@topic.author.login</td>
+        <td>@topic.createdAt</td>
+        <td>@topic.modifiedAt</td>
+        <td>
+            @Html.ActionLink("Szczegóły", "Index", "Post", new { id = topic.topID }, new { @class = "btn btn-default btn-sm" })
+        </td>
+        <td>
+            @{
+                if (ApplicationState.logged && ApplicationState.user.login.Equals(topic.author.login)) {
+                    @Html.ActionLink("Edytuj", "Edit", "Topic", new { id = topic.topID, title = topic.title }, new { @class = "btn btn-default btn-sm" })
+                }
+            }
+
+        </td>      
+    </tr>
+    }
+</table>
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+@{
+    if (ApplicationState.logged)
+    {
+        using (Html.BeginForm("Create", "Topic", FormMethod.Post))
+        {
+            @Html.TextBox("newTitle")
+            <input type="submit" class="btn btn-default btn-sm" value="Dodaj" />
+        }
+    }
+}
+

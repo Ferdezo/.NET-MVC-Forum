@@ -1,0 +1,10 @@
+﻿@model ForumData5.Post
+
+<h2>Edycja posta</h2>
+
+@using (Html.BeginForm("EditSubmit", "Post", FormMethod.Post))
+{
+    @Html.TextBox("content")
+    <input type="submit" class="btn btn-default btn-sm" value="Dodaj" />
+}
+

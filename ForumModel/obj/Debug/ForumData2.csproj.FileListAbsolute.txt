@@ -1,0 +1,10 @@
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\ForumModel.exe.config
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.exe
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.pdb
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\ForumModel.exe
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\ForumModel.pdb
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.dll
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.xml
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumData2.csprojResolveAssemblyReference.cache

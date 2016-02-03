@@ -1,0 +1,53 @@
+﻿@using PagedList.Mvc;
+@using WebApplication2.App_Start;
+@model PagedList.IPagedList<ForumData5.Post>
+
+@{
+    ViewBag.Title = "Posts";
+}
+
+<h2>Posty</h2>
+<table class="table">
+    <tr>
+        <th>Tytuł</th>
+        <th>Autor</th>
+        <th>Utworzono</th>
+        <th>Modyfikowano</th>
+        <th></th>
+    </tr>
+    @if (Model.Count == 0)
+    {
+        <p>Brak postów</p>
+    }
+    @foreach (var post in Model)
+    {
+        <tr>
+            <td>@post.content</td>
+            <td>@post.user.login</td>
+            <td>@post.createdAt</td>
+            <td>@post.modifiedAt</td>
+            <td>  
+                @{
+                    if (ApplicationState.logged && ApplicationState.user.login.Equals(post.user.login)) {
+                        @Html.ActionLink("Edytuj", "Edit", new { id = post.posID, content = post.content }, new { @class = "btn btn-default btn-sm" })
+                    }
+                }
+            </td>
+        </tr>
+    }
+</table>
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+@{
+    if (ApplicationState.logged)
+    {
+        using (Html.BeginForm("Create", "Post", FormMethod.Post))
+        {
+            @Html.TextBox("newContent")
+            <input type="submit" class="btn btn-default btn-sm" value="Dodaj" />
+        }
+    }
+}
+
+

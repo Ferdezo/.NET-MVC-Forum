@@ -1,0 +1,28 @@
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\ForumModel.exe.config
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\ForumModel.exe
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\ForumModel.pdb
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.dll
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.xml
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumData3.csprojResolveAssemblyReference.cache
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.exe
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.pdb
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.Migrations.InitialCreate.resources
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumData3.csproj.GenerateResource.Cache
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.Migrations.TopicNewRelation.resources
+C:\Users\Ferdezo\documents\visual studio 2015\Projects\WpfApplication1\ForumModel\obj\Debug\ForumModel.Migrations.TopicNewRelation1.resources
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\ForumModel.exe.config
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\ForumModel.exe
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\ForumModel.pdb
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\EntityFramework.dll
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\EntityFramework.SqlServer.dll
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\EntityFramework.xml
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\bin\Debug\EntityFramework.SqlServer.xml
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumData3.csprojResolveAssemblyReference.cache
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumModel.Migrations.InitialCreate.resources
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumModel.Migrations.TopicNewRelation.resources
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumModel.Migrations.TopicNewRelation1.resources
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumData3.csproj.GenerateResource.Cache
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumModel.exe
+G:\Dropbox\STUDIA\PNET\Projekty\WebApplication1\ForumModel\obj\Debug\ForumModel.pdb
